@@ -3,11 +3,18 @@ body {
     height: 100%;
 }
 
+h1 {
+    font-size: 30px;
+}
+
+h2 {
+   font-size: 20px; 
+}
+
 h3 {
     display: inline;
-    font-size: 10px;
+    font-size: 20px;
     margin: 0px 10px 0px 10px;
-    padding-top: 20px;
 }
 
 #landing {
@@ -21,8 +28,10 @@ h3 {
     display:inline;
     width:100%;
     height:100%;
-    background-color:blue;
+    background-color:#c9ddfc;
 }
+
+
 #ad{
     background-color:lightBlue;
     border-radius:15px;
@@ -33,8 +42,9 @@ h3 {
     padding-left:25px;
     color:grey;
 }
+
 #home-heading{
-    color:
+    color:blue;
     
 }
 #info {
@@ -55,17 +65,20 @@ h3 {
 
 .text-vertical-center {
     text-align: center;
-    vertical-align: middle;
-    display: table-cell;
-    color: white;
+        vertical-align: middle;
+        display: table-cell;
+        color: white;
 }
 
 @media (min-width: 768px) {
     h1{
-        font-size: 50px;
+        font-size: 35px;
+    }
+    h2{
+        font-size: 25px;
     }
     h3 {
-        font-size: 20px;
+        font-size: 30px;
     }
     #home-heading{
         padding-left:500px;
@@ -74,10 +87,10 @@ h3 {
 
 @media (min-width: 992px) {
     h1{
-        font-size:70px;
+        font-size:40px;
     }
-    h3 {
-        font-size: 40px;
+    h2{
+        font-size: 30px;
     }
     #home-heading{
         padding-left: 375px;
@@ -87,12 +100,10 @@ h3 {
 
 @media (min-width: 1200px) {
     h1{
-        font-size:90px;
-            
-        
+        font-size:45px;
     }
-    h3 {
-        font-size: 60px;
+    h2{
+        font-size: 35px;
     }
     #home-heading{
         padding-left:600px;
