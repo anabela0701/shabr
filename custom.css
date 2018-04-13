@@ -2,9 +2,6 @@ body {
     width: 100%;
     height: 100%;
 }
-h1{
-    color:rgb();
-}
 
 h3 {
     display: inline;
@@ -15,10 +12,27 @@ h3 {
 
 #landing {
     display: table;
-    width: 100%;
-    height: 100%;
-    background: url("img/balloon-1.jpg") no-repeat center;
+    width: 100% ;
+    height: 100% ;
+    background: url("img/balloon-3.jpg") no-repeat center;
     background-size: cover;
+}
+#home{
+    display:inline;
+    width:100%;
+    height:100%;
+    background-color:#c9ddfc;
+}
+
+    
+}
+#ad{
+    background:linear-gradient(#e66465,#9198e5);
+    border-radius: 15px
+}
+#ka{
+    padding-left:25px;
+    color:grey;
 }
 
 #info {
@@ -51,6 +65,9 @@ h3 {
     h3 {
         font-size: 20px;
     }
+    #home-heading{
+        padding-left:500px;
+    }
 }
 
 @media (min-width: 992px) {
@@ -60,7 +77,11 @@ h3 {
     h3 {
         font-size: 40px;
     }
+    #home-heading{
+        padding-left: 375px;
+    }
 }
+
 
 @media (min-width: 1200px) {
     h1{
@@ -71,4 +92,8 @@ h3 {
     h3 {
         font-size: 60px;
     }
+    #home-heading{
+        padding-left:600px;
+    }
+    
 }
