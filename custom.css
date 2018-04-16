@@ -4,8 +4,12 @@ body {
     height: 100%;
 }
 
+p {
+    font-size: 15px;
+}
+
 h1 {
-    font-size: 30px;
+    font-size: 45px;
 }
 
 h2 {
@@ -16,12 +20,16 @@ h3 {
     font-size: 20px;
 }
 
-nav h3 {
+nav h1 {
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+nav h2 {
     display: inline;
     font-size: 20px;
     margin-left: 10px;
 }
-
 
 #landing {
     display: table;
@@ -43,6 +51,17 @@ nav h3 {
     padding-top: 20px;
 }
 
+#info {
+    width: 100%;
+}
+
+#testimonials {
+    width: 100%;
+}
+
+#contact {
+    width: 100%;
+}
 
 @media (min-width: 768px) {
     h1 {
