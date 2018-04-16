@@ -1,4 +1,5 @@
-html,body {
+html,
+body {
     width: 100%;
     height: 100%;
 }
@@ -8,37 +9,39 @@ h1 {
 }
 
 h2 {
-    font-size: 20px;
+    font-size: 25px;
 }
 
 h3 {
-    display: inline;
     font-size: 20px;
-    margin: 0px 10px 0px 10px;
 }
 
-.container {
+nav h3 {
+    display: inline;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+#landing {
+    display: table;
     width: 100%;
     height: 100%;
     background: url("img/balloon-3.jpg") no-repeat center;
     background-size: cover;
 }
 
+.text-vertical-center {
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+    color: white;
+}
+
 #home {
     width: 100%;
     height: 100%;
-    background-color: #c9ddfc;
 }
 
-#home h2 {
-    padding: 10px 0px 0px 20px;
-    color: blue;
-}
-
-#home p {
-    padding-left: 20px;
-    color: grey;
-}
 
 @media (min-width: 768px) {
     h1 {
@@ -69,4 +72,9 @@ h3 {
     h2 {
         font-size: 35px;
     }
+
+    #home-heading {
+        padding-left: 600px;
+    }
+
 }
